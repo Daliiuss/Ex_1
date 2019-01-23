@@ -1,0 +1,27 @@
+import time
+import threading
+
+i = 1
+
+def thrd1():
+    #time.sleep(0.2)
+    global i
+    for j in range(1000000):
+        i+=1
+    
+
+def thrd2():
+    global i
+    for j in range(1000000):
+        i-=1
+    #time.sleep(0.2)
+
+
+threads = []
+t1 = threading.Thread(target=thrd1)
+t2 = threading.Thread(target=thrd2)
+threads.append(t1)
+threads.append(t2)
+t1.start()
+t2.start()
+print (i)
