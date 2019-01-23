@@ -35,9 +35,9 @@ When answering the questions, remember to use all the resources at your disposal
  Coroutines are concurrency threads which are based on queues. Shares the same thread.
  
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
- > pthread_create() - starts new thread within the process, which invokes already runing processes (Coroutine)
+ > pthread_create() - starts new thread within the process thread
  
- >threading.Thread() - (Coroutine)
+ >threading.Thread() - (thread) 
  
  >go - (Coroutine)
  
