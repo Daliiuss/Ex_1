@@ -20,14 +20,19 @@ When answering the questions, remember to use all the resources at your disposal
  
  ### What kinds of problems motivates the need for concurrent execution?
  (Or phrased differently: What problems do concurrency help in solving?)
+ 
  Saves resources and helps optimizing systems which has less cores
  
  ### Does creating concurrent programs make the programmer's life easier? Harder? Maybe both?
  (Come back to this after you have worked on part 4 of this exercise)
+ 
  It depends on the size of the software. It might get harder to organize timing in big projects which will consume programmers time
  
  ### What are the differences between processes, threads, green threads, and coroutines?
- > *Your answer here*
+
+ Green threads are user-based threads which run in software (not OS)
+ Thread is run by OS
+ Coroutines are concurrency threads which are based on queues. Shares the same thread.
  
  ### Which one of these do `pthread_create()` (C/POSIX), `threading.Thread()` (Python), `go` (Go) create?
  > *Your answer here*
