@@ -35,6 +35,7 @@ int main()
    printf("%d\n",(int)i);
 
    pthread_join(tid1, &i);
+    // printf("%d\n",(int)i);
    pthread_join(tid2, &i);
 
    printf("%d\n",(int)i);
