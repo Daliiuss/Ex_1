@@ -6,7 +6,7 @@ To complete this exercise you will have to use git. Create one or several commit
 When answering the questions, remember to use all the resources at your disposal. Asking the internet isn't a form of "cheating", it's a way of learning.
 
  ### What is concurrency? What is parallelism? What's the difference?
- > Concurrency - when multiple processes work "at the same time". Multiple processes shares one thread and uses interuptions/time gaps to process data
+ Concurrency - when multiple processes work "at the same time". Multiple processes shares one thread and uses interuptions/time gaps to process data
  Parallelism - when multiple processes work at the same time. Multiple processes uses multiple threads to process data at the same time
  Difference: Concurrency uses interuptions/switches between processes on single thread while parallelism uses multiple threads for multiple processes 
  
