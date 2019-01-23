@@ -7,11 +7,13 @@ When answering the questions, remember to use all the resources at your disposal
 
  ### What is concurrency? What is parallelism? What's the difference?
  Concurrency - when multiple processes work "at the same time". Multiple processes shares one thread and uses interuptions/time gaps to process data
+ 
  Parallelism - when multiple processes work at the same time. Multiple processes uses multiple threads to process data at the same time
+ 
  Difference: Concurrency uses interuptions/switches between processes on single thread while parallelism uses multiple threads for multiple processes 
  
  ### Why have machines become increasingly multicore in the past decade?
- > 1. Number of software using multiple processes started to rise
+ 1. Number of software using multiple processes started to rise
  2. Better performance in data processing
  3. Multiple processes running at the same time
  4. Preventing data loss, by runing crucial processes without disruption on seperate threads
