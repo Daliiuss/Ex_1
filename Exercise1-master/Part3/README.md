@@ -39,7 +39,7 @@ When answering the questions, remember to use all the resources at your disposal
  
  >threading.Thread() - (Coroutine)
  
- go - (Coroutine)
+ >go - (Coroutine)
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
  > *Your answer here*
