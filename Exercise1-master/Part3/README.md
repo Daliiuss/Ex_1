@@ -42,10 +42,11 @@ When answering the questions, remember to use all the resources at your disposal
  >go - (Coroutine)
  
  ### How does pythons Global Interpreter Lock (GIL) influence the way a python Thread behaves?
- > *Your answer here*
+ > It locks multiple threads and allows only one thread to run
+ 
  
  ### With this in mind: What is the workaround for the GIL (Hint: it's another module)?
- > *Your answer here*
+ > multiprocessing, opening module in other process
  
  ### What does `func GOMAXPROCS(n int) int` change? 
- > *Your answer here*
+ > maximum of allowed threads for a program
